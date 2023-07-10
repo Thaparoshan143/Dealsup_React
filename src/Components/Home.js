@@ -4,7 +4,9 @@ import "./Home.css"
 function Home()
 {
 	return(
-		<div className="Home">Home</div>
+		<div className="Home page flex-c-se-c">
+				Home
+		</div>
 	)
 }
 
