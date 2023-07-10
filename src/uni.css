@@ -15,7 +15,7 @@ html{font-size:1rem;font-family:'roboto',sans-serif;scroll-behavior: smooth;}
     --theme-btn-text-col:black;
     --theme-btn-text-hov-col:gray;
 
-    --pse-underline1-col:violet;
+    --pse-underline1-col:rgb(140, 10, 220);
     --pse-underline1-thick:4px;
     --pse-underline2-col:blue;
     --pse-underline2-thick:4px;
@@ -52,3 +52,27 @@ html{font-size:1rem;font-family:'roboto',sans-serif;scroll-behavior: smooth;}
 .pse-ul4:hover{color:var(--pse-underline4-col);}
 .pse-ul4::before{width:100%;background-color: var(--pse-underline4-col);height: 0;}
 .pse-ul4:hover:before{height:var(--pse-underline4-thick);}
+
+* a
+{
+    font-size:1rem;
+    color:white;
+    text-decoration: none;
+}
+
+* ul 
+{
+    list-style: none;
+}
+
+.page
+{
+    height: 100vh;
+}
+
+.pCase::first-letter
+{
+    font-size: 1.5em;
+}
+
+
