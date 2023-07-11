@@ -1,21 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;500&family=Kanit:wght@200;400&family=Oswald:wght@300;400&display=swap');
+
 
 *{padding:0px;margin:0px;box-sizing: border-box;}
-html{font-size:1rem;font-family:'roboto',sans-serif;scroll-behavior: smooth;}
+html{font-size:1rem;font-family:'Kanit',sans-serif;scroll-behavior: smooth;color:white;}
 
 /* Some variable for css styling are below */
 :root
 {
     --main-theme-bg-col:white;
     --main-theme-bg-alt-col:whitesmoke;
-    --main-theme-text-col:black;
-    --main-theme-text-alt-col:gray;
+    --main-theme-text-col:rgb(140, 10, 220);
+    --main-theme-text-alt-col:rgba(140, 10, 220, 0.6);
 
-    --theme-btn-bg-col:orangered;
-    --theme-btn-bg-hov-col:orange;
-    --theme-btn-text-col:black;
-    --theme-btn-text-hov-col:gray;
+    --theme-btn-bg-col:rgb(140, 10, 220);
+    --theme-btn-bg-hov-col:white;
+    --theme-btn-text-col:white;
+    --theme-btn-text-hov-col:rgb(140, 10, 220);
 
-    --pse-underline1-col:rgb(140, 10, 220);
+    --pse-underline1-col:var(--main-theme-text-col);
     --pse-underline1-thick:4px;
     --pse-underline2-col:blue;
     --pse-underline2-thick:4px;
@@ -68,11 +70,19 @@ html{font-size:1rem;font-family:'roboto',sans-serif;scroll-behavior: smooth;}
 .page
 {
     height: 100vh;
+    padding-top:5rem;
+    background-color: #222;
+    z-index: -5;
 }
 
 .pCase::first-letter
 {
     font-size: 1.5em;
+}
+
+.theme-text
+{
+    color:var(--main-theme-text-col);
 }
 
 

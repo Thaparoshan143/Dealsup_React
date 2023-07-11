@@ -12,12 +12,8 @@ export const _NavItems = [
         url : "./suppliers",
     },
     {
-        title: "Explore",
-        url : "./explore",
-    },
-    {
-        title: "Know More",
-        url : "./knowmore",
+        title: "Why Dealsup",
+        url : "./whydealsup",
     },
     {
         title: "Log in",

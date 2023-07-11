@@ -1,23 +1,22 @@
 
 footer
 {
-    background-color: #ddd;
+    background-color: #000;
     padding:2rem 0;
     min-height: 15rem;
+    z-index: 100;
 }
 
 .Links
 {
-    font-size:1.2rem;
     text-underline-offset: 2px;
-    color:black;
     transition:0.3s;
 }
 
 .Links:hover
 {
     text-decoration: underline;
-    color:rgb(102, 12, 219);
+    color:var(--main-theme-text-col);
 }
 
 .Social-Links
