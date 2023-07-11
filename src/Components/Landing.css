@@ -1,0 +1,57 @@
+
+.Landing .bg
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* padding-bottom: 5rem; */
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-tmall-double-12-super-deal-poster-png_180286.jpg");
+    /* filter: brightness(0.2); */
+    opacity: 0.2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Landing h1
+{
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size:3rem;
+    z-index:1;
+
+}
+
+.Search-Wrapper
+{
+    width: 100%;
+    z-index:1;
+}
+
+.Search-Wrapper input
+{
+    width:50%;
+    height: 4rem;
+    font-size:1.2rem;
+    padding:0 1.5rem;
+    border-radius:5rem;
+    color:var(--main-theme-text-col);
+    border:1px solid transparent;
+}
+
+.Search-Wrapper input:focus
+{
+    outline:none;
+    border:1px solid var(--main-theme-text-col);
+}
+
+.Landing a
+{
+    z-index: 1;
+}
+
+
+
