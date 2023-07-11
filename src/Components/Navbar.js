@@ -7,11 +7,11 @@ import dealsuplogo from "../assets/ dealsup-logo.jpg"
 function Navbar()
 {
 	return(
-		<nav className="Navbar">
-			<div className="Nav-Wrapper flex-r-sb-c">
+		<nav className="Navbar flex-r-sb-c">
 				<a className="Logo-Cont" href={"./landing"}>
 					<img className="Logo" src={dealsuplogo} alt="brand logo" />
 				</a>
+			<div className="Nav-Wrapper flex-r-se-c">
 				{_NavItems.map(({title, url})=>{
 						return <NavItem title={title} url={url} />
 				})}
