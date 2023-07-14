@@ -46,11 +46,15 @@ export const _Description = [
 export const _OutlineInfo = [
     {
         title : "Total Vendors",
-        size : "15 +",
+        count : "15 +",
     },
     {
         title : "Total Suppliers",
-        size : "20 +",
+        count : "20 +",
     }
+]
+
+export const _WhyUsDescription = [
+    "Dealsup provides both vendor and supplier a marketplace to reach the people throughout Nepal. Dealsup is an online marketplace that provides portal on a wide range of products, making it an ideal place for both supplier and vendors to get the best value for their money. Ideal choice for both Vendor and Suppliers to meet their demands."
 ]
 

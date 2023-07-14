@@ -7,24 +7,21 @@ footer
     z-index: 100;
 }
 
+.Footer
+{
+    width: 100%;
+}
+
 .Links
 {
     text-underline-offset: 2px;
     transition:0.3s;
+    padding:0.2rem 0.6rem;
+    margin:0.6rem;
 }
 
 .Links:hover
 {
     text-decoration: underline;
     color:var(--main-theme-text-col);
-}
-
-.Social-Links
-{
-    width: 50vw;
-}
-
-.Quick-Links .Links
-{
-    padding:0.8rem;
 }

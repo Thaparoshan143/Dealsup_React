@@ -2,6 +2,7 @@ import "./Landing.css";
 import "../uni.css";
 import { FaSearch, FaShoppingBasket } from 'react-icons/fa';
 import { useState } from "react";
+import {InfoCard} from "./Card";
 import { _OutlineInfo } from "../Data/Dealsup";
 
 function Landing() {
@@ -43,13 +44,9 @@ function Landing() {
             <p>Seek for the Vendors that you want to deliver your product and set the price for selling.</p>
           </div>
           <div className="flex-r-se-c Outline-Info">
-            {_OutlineInfo.map(({title,size})=>{
+            {_OutlineInfo.map(({title,count})=>{
               return (
-                <div className="Info-Card flex-c-se-c">
-                  <FaShoppingBasket style={{fontSize:"8rem"}}/>
-                  <h2 className="pCase theme-text">{title}</h2>
-                  <h2>{size}</h2>
-                </div>
+                <InfoCard img={<FaShoppingBasket style={{fontSize:"5rem"}} />} title={title} count={count} />
               )
             })}
           </div>

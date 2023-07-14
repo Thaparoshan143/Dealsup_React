@@ -6,9 +6,19 @@ import { _SocialLinks, _QuickLinks} from "../Data/Dealsup";
 function Footer()
 {
 	return(
-		<footer className="Footer flex-r-se-c">
-			<QuickLinks />
-			<SocialLinks />
+		<footer className="flex-c-se-c">
+			<div className="flex-r-se-c Footer">
+				<div className="Loct-Info flex-c-se-c">
+					<h1 className="theme-text">Thapathali, Kathmandu</h1>
+					<h2>01-1492419</h2>
+					<h3>info.dealsup@gmail.com</h3>
+				</div>
+				<QuickLinks />
+				<SocialLinks />
+			</div>
+			<br />
+			<br />
+			<div>Copyright &copy; 2023. All right reserved</div>
 		</footer>
 	)
 }

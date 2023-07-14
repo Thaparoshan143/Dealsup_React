@@ -2,7 +2,7 @@
 
 
 *{padding:0px;margin:0px;box-sizing: border-box;}
-html{font-size:1rem;font-family:'Kanit',sans-serif;scroll-behavior: smooth;color:white;}
+html{font-size:1rem;font-family:'Kanit',sans-serif;scroll-behavior: smooth;color:white;text-align: center;}
 
 /* Some variable for css styling are below */
 :root
@@ -84,6 +84,18 @@ html{font-size:1rem;font-family:'Kanit',sans-serif;scroll-behavior: smooth;color
 .theme-text
 {
     color:var(--main-theme-text-col);
+}
+
+.heading
+{
+    font-size:4.5rem;
+}
+
+@media screen and (max-width:800px) {
+    .flex-r-se-c, .flex-r-sb-c
+    {
+        flex-direction: column;
+    }
 }
 
 

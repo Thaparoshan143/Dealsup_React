@@ -1,19 +1,17 @@
 
 .Home
 {
-    
+    height: 100vh;
 }
 
-.Main-Title
+.Home .pCase
 {
-    color:var(--main-theme-text-col);
-    font-size:5rem;
     text-transform: uppercase;
 }
 
 .Hero-Img
 {
-    height: 30rem;
+    height: 35rem;
     border-radius:0  10% 5% 20%;
     margin:0 2rem;
     transition:0.5s;
@@ -32,6 +30,9 @@
 
 .Home p
 {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    text-align: justify;
     width: 80%;
     font-family: 'roboto',sans-serif;
     line-height: 1.5em;
