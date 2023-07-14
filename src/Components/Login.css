@@ -1,0 +1,45 @@
+
+.Form-Cont
+{
+    font-size: 1.8rem;
+    text-align: left;
+    /* border: 2px solid var(--main-theme-text-alt-col); */
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blue(1rem);
+    border-radius:1rem;
+    padding: 3rem;
+}
+
+.Form-Cont label
+{
+    color: var(--main-theme-text-col);
+}
+
+.Form-Cont input 
+{
+    width:25rem;
+    height: 4rem;
+    padding:1rem;
+    font-size:1.3rem;
+    margin:1rem;
+}
+
+.Form-Cont input:focus
+{
+    outline: 2px solid var(--main-theme-text-col);
+
+}
+
+.Form-Cont .theme-button
+{
+    margin:1.5rem;
+    width: 90%;
+    font-size:1.5rem;
+}
+
+.Form-Cont span
+{
+    color:gray;
+    font-size: 1rem;
+    margin-top:1rem;
+}
