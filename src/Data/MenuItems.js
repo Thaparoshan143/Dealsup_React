@@ -4,8 +4,8 @@ export const _NavItems = [
         url : "./home",
     },
     {
-        title: "Vendor",
-        url : "./vendor",
+        title: "Vendors",
+        url : "./vendors",
     },
     {
         title: "Suppliers",

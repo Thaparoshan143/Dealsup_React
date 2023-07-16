@@ -1,0 +1,11 @@
+.Vendors-Wrapper
+{
+    margin-top:5rem;
+    width: 85%;
+    padding:0.2rem;
+}
+
+.Vendor-List
+{
+    flex-wrap: wrap;
+}

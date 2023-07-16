@@ -2,13 +2,17 @@
 
 
 *{padding:0px;margin:0px;box-sizing: border-box;}
-html{font-size:1rem;font-family:'Kanit',sans-serif;scroll-behavior: smooth;color:white;text-align: center;}
+html{font-size:1rem;font-family:'Kanit',sans-serif;scroll-behavior: smooth;color:black;text-align: center;}
 
 /* Some variable for css styling are below */
 :root
 {
-    --main-theme-bg-col:white;
-    --main-theme-bg-alt-col:whitesmoke;
+    --main-theme-bg-col:rgb(140, 10, 220);
+    --main-theme-bg-alt-col:rgba(140, 10, 220, 0.6);
+    --main-comp-col1 : white;
+    --main-comp-alt-col1 : rgba(220,220,220,0.9);
+    --main-comp-col2 : black;
+    --main-comp-alt-col2 : rgba(0,0,0,0.9);
     --main-theme-text-col:rgb(140, 10, 220);
     --main-theme-text-alt-col:rgba(140, 10, 220, 0.6);
 
@@ -60,6 +64,7 @@ html{font-size:1rem;font-family:'Kanit',sans-serif;scroll-behavior: smooth;color
     font-size:1rem;
     color:white;
     text-decoration: none;
+    cursor: pointer;
 }
 
 * ul 
@@ -72,7 +77,7 @@ html{font-size:1rem;font-family:'Kanit',sans-serif;scroll-behavior: smooth;color
     min-height: 100vh;
     width: 100%;
     padding-top:5rem;
-    background-color: #222;
+    background-color: var(--main-comp-col1);
     z-index: -5;
 }
 
@@ -89,6 +94,45 @@ html{font-size:1rem;font-family:'Kanit',sans-serif;scroll-behavior: smooth;color
 .heading
 {
     font-size:4.5rem;
+}
+
+input[type="text"]
+{
+    font-size:1.4rem;
+    outline:none;
+    padding:0.2rem 2rem;
+}
+
+input[type="text"]:focus
+{
+    outline: var(--main-theme-bg-col);
+}
+
+.theme-icon
+{
+    color:var(--main-theme-bg-col);
+}
+
+.icon-medium
+{
+    font-size:2rem;
+}
+
+.search-sec
+{
+    width:100%;
+    background-color: var(--main-comp-alt-col1);
+    padding:0.8rem 4rem;
+}
+
+.search-sec input
+{
+
+}
+
+.search-sec span
+{
+    font-size:1.6rem;
 }
 
 @media screen and (max-width:800px) {

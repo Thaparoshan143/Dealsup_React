@@ -1,0 +1,92 @@
+
+.Info-Card
+{
+    min-height: 20vh;
+    background-color: rgba(255,255,255,0.15);
+    padding:2rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(1rem);
+    margin:2rem;
+    transition: 0.5s;
+    border:2px solid var(--main-theme-bg-col);
+}
+
+.Info-Card:hover
+{
+    transform:scale(1.05);
+    box-shadow: 0 0 20px 1px var(--main-theme-bg-alt-col);
+}
+
+.Info-Card h2
+{
+    text-transform: uppercase;
+    font-size:3rem;
+}
+
+
+.Vendor-Card
+{
+    /* min-height: 40rem; */
+    padding:1.2rem;
+    border:2px solid var(--main-theme-text-alt-col);
+    margin: 2rem;
+    transition:0.3s;
+    max-width: 30%;
+}
+
+.Vendor-Card:hover
+{
+    transform: scale(1.01   );
+    border:2px solid var(--main-theme-text-col);
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.2);
+}
+
+.Vendor-Card .Card-Img
+{
+    min-width:20rem;
+    min-height: 20rem;
+    max-width:20rem;
+    max-height: 20rem;
+}
+
+.Vendor-Card .Card-Title
+{
+    font-size:2rem;
+}
+
+.Vendor-Card .Card-Sub-Title
+{
+    font-size:1.8rem;
+}
+
+.Vendor-Card .Card-Desc
+{
+    font-size: 1rem;
+    font-weight: light;
+}
+
+.Vendor-Card .Ratings
+{
+    width: 80%;
+    margin:1rem 0;
+    font-size: 1.2em;
+}
+
+.Vendor-Card hr
+{
+    width: 100%;
+    margin:1rem 0;
+    border:2px solid var(--main-theme-bg-alt-col);
+}
+
+.Vendor-Card .Bookmark
+{
+    color:black;
+    transition: 0.2s;
+}
+
+.Vendor-Card .Bookmark:hover
+{
+    color:var(--main-theme-bg-col);
+    transform: scale(1.2);
+}
