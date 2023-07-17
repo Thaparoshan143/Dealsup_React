@@ -3,8 +3,7 @@
 {
     font-size: 1.8rem;
     text-align: left;
-    /* border: 2px solid var(--main-theme-text-alt-col); */
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--main-comp-alt-col2);
     backdrop-filter: blue(1rem);
     border-radius:1rem;
     padding: 3rem;

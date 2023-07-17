@@ -34,3 +34,26 @@ export function VendorCard({name, thumbnailSrc, serve, description, ratings})
 		</div>
 	)
 }
+
+
+export function SupplierCard({name, thumbnailSrc, serve, description, ratings})
+{
+	function AddBookMark()
+	{
+		// Backend logic to add to bookmark
+	}
+
+	return (
+		<div className="Vendor-Card flex-c-se-c">
+			<h1 className="theme-text Card-Title">{name}</h1>
+			<img src={thumbnailSrc} className="Card-Img" />
+			<h2 className="Card-Sub-TItle">{serve}</h2>
+			<hr />
+			<p className="Card-Desc">{description}</p>
+			<div className="Ratings theme-text flex-r-sb-c">
+				<span className="flex-r-se-c">Ratings : {ratings}<FaStar style={{margin:"0 0.4rem"}} /></span>
+				<FaBookmark onClick={AddBookMark} className="Bookmark icon-medium" />
+			</div>
+		</div>
+	)
+}
