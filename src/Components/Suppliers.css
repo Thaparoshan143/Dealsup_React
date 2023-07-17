@@ -1,0 +1,16 @@
+
+.Suppliers .heading
+{
+    text-transform: uppercase;
+}
+
+.Supplier-Wrapper
+{
+    margin-top:5rem;
+    width: 85%;
+}
+
+.Supplier-List
+{
+    flex-wrap: wrap;
+}
